@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página do Curso</title>
+</head>
+<style type="text/css">
+		td {
+			border: 1px solid black
+		}	
+</style>
+<body>
+	<h1>Página do curso de Eng da Computação</h1> <!-- tag h = cabeçalho -->
+	<table style="border:1px solid green"> <!-- tag table = cria uma tabela -->
+		<thead>
+			<tr> <!-- tag tr = cria uma linha -->
+				<th>Professor</th> <!-- tag td = cria uma coluna -->
+				<th>Disciplina</th> <!--tag th = centraliza e deixa negrito -->
+			</tr>
+		</thead>
+		<tbody> <!-- tbody = informa os dados da tabela -->
+		<tr>
+			<td rowspan="3">Paulo de Tarso</td> <!-- rowspan = agrupa -->
+			<td>Linguagem de programação 2</td>
+		</tr>
+		<tr>
+			<td>Linguagem de programação 2</td>
+		</tr>
+		<tr>
+			<td>Linguagem de programação 2</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="2">Válido para 2018.1</td>
+		</tr>
+	</tfoot>
+	</table>
+	<h3>Formulário de Matricula</h3>
+	<form> <!-- tag form = cria um formulario -->
+		Nome: <input type="text" name=""> <br> <!-- tag input = entrada de dados -->
+		Data de Nascimento: <input type="date" name=""> <br>
+		CPF: <input type="text" name=""> <br>
+		Sexo: <select>
+			<option>Masculino</option>
+			<option>Feminino</option>
+		</select> <br>
+		Termo de Responsabilidade <br> <input type="checkbox" name=""> Não li e aceito
+		<br>
+	</form>
+	<h3>You rico man</h3>
+	<ul>
+		<li>Disney</li>
+		<li>Narnia</li>
+		<li>Mickey</li>
+		<li>Pluto</li>
+		<li>Scooby-doo</li>
+		<!--tag li = lista -->
+	</ul>
+	<div> <!-- tag div = agrupa elementos em bloco, no final de toda div tem uma quebra de linha -->
+	<span> <!-- tag span = agrupa elementos em linha -->
+	<i>Autor: Mula</i> (<a href="https://github.com/zuko56/aula-html">Link github</a>)</span><br> <!--tag br = quebra de linha -->
+	<b>Faculdade Meta 2018</b> (<a href="http://www.meta.edu.br/faculdade/">Link para faculdade</a>)<br> <!-- tag a = link -->
+	<strong>Todos os Direitos Reservados</strong>
+	</div> 
+	<!-- tags b e strong = negrito
+		 tag i = italico  -->
+</body>
+</html>
